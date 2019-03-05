@@ -111,7 +111,7 @@
   [[FIRConfiguration sharedInstance] setLoggerLevel:[TiUtils intValue:logLevel]];
 }
 
-- (void)fetchInstanceID:(id)callback
+- (void)fetchInstanceId:(id)callback
 {
   ENSURE_SINGLE_ARG_OR_NIL(callback, KrollCallback);
   
